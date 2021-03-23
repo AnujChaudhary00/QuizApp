@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Questions</title>
+        <link rel="stylesheet" href="quizStyle.css"/>
+        <script src="Logic.js"></script>
+
+    </head>
+    <body onload="push('l')">
+        <div class="quizContainer">
+            <div class="Label">
+                <div class="questionStatus">
+                    <div class="text" id="text"></div>
+                    <div class="scoreBar"><div class="statusBar" id="statusBar"></div></div>
+                </div>
+                <div class="score">
+                    <div class="text">Score</div>
+                    <div class="marks" id="marks">0</div>
+                </div>
+            </div>
+            <div class="questions" id="question"><p></p></div>
+            <div class="answers">
+               <div class="options"><p>A</p><p class="opt1" id="A" onClick="push('A')" value="A">opt1</p></div>
+               <div class="options"><p>B</p><p class="opt2" id="B"  onClick="push('B')" value="B">opt2</p></div>
+               <div class="options"><p>C</p><p class="opt3" id="C"  onClick="push('C')" value="C">opt3</p></div>
+               <div class="options"><p>D</p><p class="opt4" id="D"  onClick="push('D')" value="D">opt4</p></div>
+            </div>
+        </div>
+    </body>
+</html>

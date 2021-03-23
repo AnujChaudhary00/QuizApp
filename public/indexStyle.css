@@ -1,0 +1,42 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:rgb(176, 231, 231);
+    text-align: center;
+    margin-top: 18%;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1{
+    color: rgb(31, 129, 129);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    text-align: center;
+    width:150px;
+    height: 40px;
+    border: 2px solid rgb(31, 119, 122) ;
+    background-color: rgb(74, 178, 182);
+    margin:15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+button:hover{
+    box-shadow: 0px 5px 5px grey;
+}
+
