@@ -188,5 +188,5 @@ function highScore()
 
 function Play()
 {
-    location.href="/quiz.html";
+    location.href="quiz.html";
 }
